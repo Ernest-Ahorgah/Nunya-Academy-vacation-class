@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NUNYA ACADEMY</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div><h1></h1></div>
+  <div class="quiz-container">
+    <h1><marquee><u>NUNYA ACADEMY (SHS ONE) VACATION CLASS (CORE I.C.T, ELECTIVE I.C.T AND COMPUTER SCIENCE) TRY TEST</u></marquee></h1>
+    <div class="score-display">Score: <span id="current-score">0</span>/<span id="total-questions">20</span></div>
+    <div id="quiz-box">
+      <div id="question">Question text here</div>
+      <div id="options"></div>
+       <button><a href="https://mega.nz/folder/6Y9m3DpD#ag-57PbJt9vQQ6kf4vC0Kg" id="slide">Click to Download lesson slides in PDF format.</A></button>
+      <div id="explanation-container" class="hidden">
+        <h3>Explanation:</h3>
+        <p id="explanation-text"></p>
+      </div>
+      <div class="button-container">
+        <button id="prev-btn" class="nav-btn">Previous</button>
+        <button id="next-btn" class="nav-btn">Next</button>
+      </div>
+    </div>
+    <div id="result-box" class="hidden">
+      <h2>End of test</h2>
+      <p id="score"></p>
+      <button onclick="location.reload()">Restart test</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
