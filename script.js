@@ -68,9 +68,9 @@ const questions = [
 
   {
     question: "12. The monitor is considered an input device.",
-    options: ["True", "False", "True or False", "None of the above"],
+    options: ["True", "False", "Both true and False", "None of the above"],
     answer: "False",
-    explanation: "5 in binary is 101 and 24 is 11000. Adding them gives 11101 (which is 29 in decimal)."
+    explanation: "Answer: Monitor is an output devices that display signals received from the motherboard."
   },
 
   {
@@ -309,4 +309,5 @@ function showResult() {
 }
 
 // Initialize
+
 showQuestion(currentQuestion);
