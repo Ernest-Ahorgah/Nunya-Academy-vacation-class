@@ -48,7 +48,7 @@ const questions = [
     explanation: "Answer: d. A projector is an output device, not a storage device."
   },
   {
-    question: "9. The motherboard is also known as:",
+    question: "9. The motherboard is also known as......",
     options: ["The system unit", "The communication backbone", "The permanent memory", "The input device"],
     answer: "The communication backbone",
     explanation: "Answer: b. The motherboard connects all components and allows them to communicate."
@@ -74,7 +74,7 @@ const questions = [
   },
 
   {
-    question: "13. RAM is permanent memory that stores data even whn power is off..",
+    question: "13. RAM is permanent memory that stores data even when power is off.",
     options: ["True", "False", "None of the above"],
     answer: "False",
     explanation: "Answer: False. RAM is volatile and loses its contents when the power is off."
@@ -122,7 +122,7 @@ const questions = [
   },
 
    {
-    question: "THE FOLLOWING QUESTIONS ARE INTENDED FOR ELECTIVE I.C.T AND COPUTER SCIENCE STUDENTS. FOR NOW, NO EXPLAINATION IS GIVEN, WE WILL DISCUSS THIS IN OUR NEXT SESSION. ATTEMPT ALL QUESTIONS. Remember: All numerical value answers are given in binary base 2 form.",
+    question: "THE FOLLOWING QUESTIONS ARE INTENDED FOR ELECTIVE I.C.T AND COMPUTER SCIENCE STUDENTS. FOR NOW, NO EXPLAINATION IS GIVEN, WE WILL DISCUSS ANSWERS TO THESE QUESTIONS IN OUR NEXT MEETING. ATTEMPT ALL QUESTIONS. Remember: All numerical value answers are given in binary base 2",
     
   },
 
@@ -132,7 +132,7 @@ const questions = [
     answer: "Registers"
   },
   {
-    question: "2. A programmer defined 110111 instruction set as an 'ADDITION' operator for ARM x86 CPU, what will be the content of a register R3 after the result of addition operation on R1 with value 5 and R2 with value 24?. Thus R3= 110111 R1,R2?. Leave your answer in binary base 2 form.",
+    question: "2. A programmer defined 110111 instruction set as an 'ADDITION' operator for ARM x86 CPU, what will be the content of a register R3 after the result of addition operation on R1 with value 5 and R2 with value 24?. Thus R3= 110111 R1,R2?. Leave your answer in binary form.",
     options: ["1111110", "11101", "110011", "100001"],
     answer: "11101"
   },
@@ -311,4 +311,5 @@ function showResult() {
 // Initialize
 
 showQuestion(currentQuestion);
+
 
