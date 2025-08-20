@@ -61,33 +61,33 @@ const questions = [
   },
   {
     question: "11. Hardware can be seen and touched, unlike software.",
-    options: ["True", "False", "Both true and False", "None of the above"],
+    options: ["True", "False","None of the above"],
     answer: "True",
     explanation: "Answer: True. Hardware is physical, while software is intangible. "
   },
 
   {
     question: "12. The monitor is considered an input device.",
-    options: ["True", "False", "Both true and False", "None of the above"],
+    options: ["True", "False","None of the above"],
     answer: "False",
-    explanation: "Answer: Monitor is an output devices that display signals received from the motherboard."
+    explanation: "Answer: False. Monitor is an output devices that display signals received from the motherboard."
   },
 
   {
     question: "13. RAM is permanent memory that stores data even whn power is off..",
-    options: ["True", "False", "True or False", "None of the above"],
+    options: ["True", "False", "None of the above"],
     answer: "False",
     explanation: "Answer: False. RAM is volatile and loses its contents when the power is off."
   },
   {
     question: "14. A USB flash drive is an example of portable storage.",
-    options: ["True", "False", "True or False", "None of the above"],
+    options: ["True", "False", "None of the above"],
     answer: "True",
     explanation: "Answer: True. It allows data to be stored and carried easily."
   },
    {
     question: "15. The CPU only stores data but does not process it.",
-    options: ["True", "False", "True or False", "None of the above"],
+    options: ["True", "False", "None of the above"],
     answer: "False",
     explanation: "Answer: False. The CPU processes instructions and data, acting as the brain of the coputer."
   },
@@ -122,7 +122,7 @@ const questions = [
   },
 
    {
-    question: "THE FOLLOWING QUESTIONS ARE INTENDED FOR ELECTIVE I.C.T AND COPUTER SCIENCE STUDENTS. FOR NOW, NO EXPLAINATION IS GIVEN, WE WILL DISCUSS THIS IN OUR NEXT SESSION. ATTEPMT ALL QUESTIONS. Remeber: All numerical value answers are given in binary form.",
+    question: "THE FOLLOWING QUESTIONS ARE INTENDED FOR ELECTIVE I.C.T AND COPUTER SCIENCE STUDENTS. FOR NOW, NO EXPLAINATION IS GIVEN, WE WILL DISCUSS THIS IN OUR NEXT SESSION. ATTEMPT ALL QUESTIONS. Remember: All numerical value answers are given in binary base 2 form.",
     
   },
 
@@ -311,3 +311,4 @@ function showResult() {
 // Initialize
 
 showQuestion(currentQuestion);
+
