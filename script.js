@@ -198,12 +198,12 @@ const questions = [
   },
   {
     question: "15. A C language was developed to be used for.....?",
-    options: ["Web applications", "Linux based OS developent", "Cloud torage", "Desktop applications"],
+    options: ["Web applications", "Linux based OS developent", "Cloud storage", "Desktop applications"],
     answer: "Desktop applications"
   },
   {
     question: "16. In Programming, A boolean expression evaluates to either..... based on a specific condition",
-    options: ["True", "False", "True or False", "None"],
+    options: ["True", "False", "True or False", "None of the above"],
     answer: "True or False"
   },
   {
@@ -217,12 +217,12 @@ const questions = [
     answer: "C++"
   },
   {
-    question: "19. A programming language that uses mneumonics to represent binary instructions that operate on registers during program execution is called.... ",
+    question: "19. A programming language that uses mneumonics to represent binary instructions which operate on registers during program execution is called.... ",
     options: ["Assembly language", "Go language", "Rust", "Basic"],
     answer: "Assembly language"
   },
   {
-    question: "20. Indentation is a crucial thing to observe in ..... Language to avoid bug.",
+    question: "20. Indentation is a crucial thing to observe in .....language to avoid bug.",
     options: ["C", "C++", "COBOL", "Python"],
     answer: "Python"
   },
@@ -311,5 +311,6 @@ function showResult() {
 // Initialize
 
 showQuestion(currentQuestion);
+
 
 
